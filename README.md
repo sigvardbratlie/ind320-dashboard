@@ -33,10 +33,7 @@ ind320_my/
 ├── data/
 │   ├── file.geojson        # GeoJSON boundaries for Norwegian price areas
 │   └── open-meteo-subset.csv  # Sample weather dataset
-├── assignments/            # Course assignment notebooks
-├── lectures/               # Lecture notebooks and materials
-├── .streamlit/             # Streamlit configuration (secrets, theme)
-└── .devcontainer/          # Dev container config for Codespaces
+└── .streamlit/             # Streamlit configuration (secrets, theme)
 ```
 
 ## Data Sources
