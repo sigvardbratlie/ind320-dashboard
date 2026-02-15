@@ -15,7 +15,7 @@ from utilities import (
     init, sidebar_setup, get_elhub_data, init_connection,
     el_sidebar, get_weather_data, extract_coordinates
 )
-from Snow_drift import snowdrift
+from snow_drift import snowdrift
 import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 

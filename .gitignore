@@ -1,33 +1,41 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyd
+*.egg-info
 build/
 dist/
 wheels/
-*.egg-info
-.devcontainer/
-.venv
-*env
-*.env
-__pycache__/
+
+# Virtual environments
+.venv/
 *.venv
+
+# IDE / Editor
 *.idea
 *.vscode
-*.DS_Store
-*.pyc
-*.pyo
-*.pyd
 *.swp
-*.log
+
+# OS
+*.DS_Store
+
+# Secrets & config
+*.env
+*secrets.toml
 *.python-version
 
+# Course materials (not part of the app)
 lectures/
 ia/
-*.in
-*secrets.toml
 
+# Dev container
+.devcontainer/
+
+# Generated / binary outputs
 *.pdf
 *.html
+*.log
+*.in
 
+# Data files
 data/open-meteo-subset.csv
-
